@@ -1,0 +1,430 @@
+/*
+
+  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
+
+*/
+
+
+
+body {
+  padding-top: 80px;
+  background: #f3f7fa;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+
+
+
+.wrapper {}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* -------------- Navbar -------------- */
+.navbar {
+  height: 60px;
+  background: #4F4E4C;
+  border-bottom: solid 2px #383735;
+  color: #fff;
+  box-shadow: -webkit-box-shadow: 0px 7px 7px -5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 7px 7px -5px rgba(0,0,0,0.2);
+  box-shadow: 0px 7px 7px -5px rgba(0,0,0,0.2);}
+
+
+
+
+.navbar-brand {height: 60px;width: auto;padding: 17px;}
+.navbar-brand img {height: 100%;}
+
+
+
+
+.navbar .nav>li>a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 19px 12px;
+}
+
+.navbar .nav>li>a:hover, .navbar .nav>li>a:focus, .navbar .nav .active {background: #383735;border-bottom: solid 2px #242321;}
+
+
+
+
+.page-header {margin: 20px 0 10px;padding-bottom: 15px;color: #555;}
+.page-header p {margin: 0;font-weight: 700;font-size: 16px;color: #009DEF;}
+.page-header-title {margin: 0;font-family: 'Playfair Display', serif;letter-spacing: -1px;line-height: 1;}
+
+
+.page-header-kiri {float: left;}
+.page-header-kiri p {display: block;}
+.page-header-kiri p .btn {padding: 3px 7px;font-size: 12px;font-weight: 700;border-radius: 2px;border: solid 1px #eee;}
+.page-header-kiri h1 {}
+
+.page-header-kanan {float: right;margin-top: -10px;margin-bottom: -5px;}
+.page-header-kanan span {display: block;text-align: right;}
+.page-header-halaman {font-family: 'Playfair Display';font-size: 26px;font-weight: 900;line-height: 1;margin: 3px 0;color: #777;}
+.page-header-breadcrumb .breadcrumb {padding: 0;background: none;margin-bottom: 0;}
+
+
+.page-header-tanggal {font-size: 12px;color: #ccc;padding: 20px 20px;position: relative;display: block;}
+.page-header-tanggal b {font-size: 14px;margin-right: 10px;font-weight: 700;color: #eee;}
+.page-header-tanggal b:last-child {margin-right: 0;}
+
+
+
+
+
+.periode-data {padding: 5px 10px;border-radius: 3px;border: solid 2px #eee;min-width: 190px;text-align: center;font-weight: 700;color: #d9534f;}
+
+
+
+
+
+
+.box  {min-height: 60px;background: #fff;border: solid 2px #eee;padding: 10px;margin-bottom: 10px;}
+.inline-box {margin-bottom: 20px;}
+.inline-box .col-md-5ths {border-right: solid 1px #eee;padding: 10px;text-align: center;}
+.inline-box .col-md-5ths:last-child {border-right: none;}
+
+
+
+
+
+
+
+
+.perolehan-suara span {display: block;}
+.perolehan-suara .judul {color: #2294de;font-weight: 700;}
+.perolehan-suara .angka {font-weight: 700;font-size: 40px;line-height: 1;}
+.perolehan-suara .nama-pasangan {color: #2c3e4c;font-size: 16px;font-family: 'Playfair Display';font-weight: 700;}
+
+
+.grafik-pertanyaan .judul-pertanyaan {height: 65px;position: relative;overflow: hidden;}
+.grafik-pertanyaan .judul-pertanyaan h3 {margin-top: 0;font-size: 18px;font-weight: 700;font-family: 'Playfair Display';color: #999;text-align: center;}
+
+
+
+
+
+
+
+.jawaban {padding: 5px 10px;color: #fff;}
+.jawaban .nama-jawaban {float: left;}
+.jawaban .prosentase-jawaban {float: right;font-weight: 700;}
+
+.jawaban-1 {background: #7cb5ec;}
+.jawaban-2 {background: #434348;}
+.jawaban-3 {background: #90ed7d;}
+.jawaban-4 {background: #f7a35c;}
+.jawaban-5 {background: #8085e9;}
+
+
+.panel-heading {padding-bottom: 0;border-bottom: 0;}
+
+
+
+
+.tabel-jawaban .sub-header {
+  font-family: 'Playfair Display';
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-bottom: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #009DEF;
+}
+
+.tabel-jawaban .nav-tabs li a {font-weight: 700;}
+.tabel-jawaban .table thead {background: #0A8ADE;color: #fff;}
+.tabel-jawaban .table thead tr th {text-align: center;}
+
+
+
+
+
+
+
+footer {margin-top: 30px;background: #BDBDBD;padding: 10px 15px;color: #fff;}
+footer .copyright {font-weight: 700;}
+footer .credits {float: right;}
+footer .credits ul li {float: left;display: block;padding: 0 10px;font-size: 12px;}
+footer .credits ul li a img {height: 20px;display: inline;}
+
+
+
+
+
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar-right .logout {border-radius: 0;border: 0;}
+.navbar .nav>li>.logout:hover, .navbar .nav>li>.logout:focus, .navbar .nav .logout .active {background: #d43f3a;}
+.navbar-right .logout:hover {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+.top-content {padding: 0 10px;margin-bottom: 20px;}
+
+.box-pie-home  {height: 205px;padding: 0 5px 5px;}
+
+
+
+
+.pie-chart-jawaban {display: block;}
+.pie-chart-jawaban .top-content-chart {height: 120px;width: 120px;margin-right: 10px;padding-left: 5px;float: left;}
+.pie-chart-jawaban h3 {margin-top: 0;font-size: 16px;font-weight: 700;padding: 15px 10px;}
+
+
+.detail-top-chart {display: block;padding: 10px 15px;padding-top: 0;color: #fff;font-size: 12px;}
+.detail-top-chart .prosentase-jawaban {float: right;font-weight: 700;}
+
+
+.detail-top-chart .col-xs-6:nth-child(1) {background: #7cb5ec;}
+.detail-top-chart .col-xs-6:nth-child(2) {background: #434348;}
+.detail-top-chart .col-xs-6:nth-child(3) {background: #90ed7d;}
+.detail-top-chart .col-xs-6:nth-child(4) {background: #f7a35c;}
+.detail-top-chart .col-xs-6:nth-child(5) {background: #8085e9;}
+.detail-top-chart .col-xs-6:nth-child(6) {background: #f15c80;}
+.detail-top-chart .col-xs-6:nth-child(7) {background: #e4d354;}
+
+
+
+.top-content .col-md-3 {background: #fff;padding: 0 5px;color: #fff;}
+.top-content .col-md-3:nth-child(1) {background: #E4E4E4;color: #5E5E5E;}
+.top-content .col-md-3:nth-child(2) {background: #C7C7C7;}
+.top-content .col-md-3:nth-child(3) {background: #E4E4E4;color: #5E5E5E;}
+.top-content .col-md-3:nth-child(4) {background: #C7C7C7;}
+.top-content .col-md-3:nth-child(5) {background: #C7C7C7;}
+.top-content .col-md-3:nth-child(6) {background: #E4E4E4;color: #5E5E5E;}
+.top-content .col-md-3:nth-child(7) {background: #C7C7C7;}
+.top-content .col-md-3:nth-child(8) {background: #E4E4E4;color: #5E5E5E;}
+
+@media (max-width: 990px) {
+  .top-content .col-md-3 {background: #C7C7C7;padding: 0 5px;color: #fff;}
+  .top-content .col-md-3:nth-child(2n+1) {background: #E4E4E4;color: #5E5E5E;}
+}
+
+
+
+
+
+.top-tabel-jawaban h1 {font-weight: 700;margin: 10px;letter-spacing: -1px;font-size: 28px;color: #0A8ADE;display: inline-block;
+  font-family: 'Playfair Display';}
+
+.tabel-jawaban {font-size: 11px;text-align: center;font-weight: 700;position: relative;width: 100%;overflow-y: hidden;}
+
+.tabel-breadcrumb {display: inline-block;float: right;margin-top: 5px;}
+.tabel-breadcrumb .breadcrumb {margin-bottom: 0;background: none;font-weight: 700;}
+
+
+
+
+
+
+
+.detail-top-content {padding: 10px 15px;float: left;padding-top: 0;}
+
+
+
+
+
+.chart-color {padding: 3px 10px;}
+
+
+
+.line-chart-per-pertanyaan {max-width: 100%; height: 350px; margin: 5px auto;border: solid 3px #eee;}
+
+
+.box .sub-header {
+  font-family: 'Playfair Display';
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-bottom: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #009DEF;
+}
+
+.sub-header-line {
+  font-family: 'Playfair Display';
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-bottom: 0;
+  padding: 0 15px;
+  text-align: left;
+  font-weight: 700;
+  color: #009DEF;
+}
+.sub-header-home {
+  font-family: 'Playfair Display';
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-bottom: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+  color: #009DEF;
+}
