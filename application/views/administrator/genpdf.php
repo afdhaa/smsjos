@@ -80,9 +80,9 @@
 		</form>
 	<h2>Format Penulisan : </h2><h3><strong>
 	id_provinsi#id_kabupaten#id_kecamatan#id_kelurahan:
-	<?php $string = ""; foreach($pertanyaan as $key => $tanya):?>
-		<?php $string .= "P".$tanya['id']."#"?>
-	<?php endforeach; echo rtrim($string,"#")?></strong></h3>
+	<?php $string = ""; $no = 1; foreach($pertanyaan as $key => $tanya):?>
+		<?php $string .= "P".$no."#"?>
+	<?php $no++; endforeach; echo rtrim($string,"#")?></strong></h3>
 	<hr>
 	</div>
 </div>
