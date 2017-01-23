@@ -79,7 +79,7 @@
             </ol>
 		</form>
 	<h2>Format Penulisan : </h2><h3><strong>
-	id_kabupaten#id_kecamatan#id_kelurahan:
+	id_provinsi#id_kabupaten#id_kecamatan#id_kelurahan:
 	<?php $string = ""; foreach($pertanyaan as $key => $tanya):?>
 		<?php $string .= "P".$tanya['id']."#"?>
 	<?php endforeach; echo rtrim($string,"#")?></strong></h3>
