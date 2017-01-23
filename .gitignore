@@ -28,3 +28,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 skripsi.sql
 run-gammu.sh
 application/config/database.php
+application/config/config.php
